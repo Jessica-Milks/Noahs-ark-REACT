@@ -1,0 +1,66 @@
+/* ===========================
+   NOAH'S ARK – PAINTER CARD
+   =========================== */
+
+/* Noah's Ark - Painter Card Base */
+/* PainterCard.css */
+/* ===========================
+   TEAM MEMBER CARDS
+   =========================== */
+
+.painter-card {
+  background-color: #ffffff; /* Crisp white to pop against the off-white background */
+  border: 1px solid #eae1d5; /* Subtle warm border */
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Very soft shadow */
+  margin: 16px auto;
+  transition: transform 0.2s ease-in-out; /* Tiny animation when hovering */
+}
+
+.painter-card:hover {
+  transform: translateY(-4px); /* Gently lifts the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.painter-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #2c2c2c;
+}
+
+.painter-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 4px 0;
+}
+
+/* Lead Painter Variant */
+.painter-card--lead {
+  border: 2px solid #d4af37; /* High-end muted gold */
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); /* Soft gold glow */
+}
+
+/* Name Text */
+.painter-card h3 {
+  font-size: 1.5rem;         /* Slightly larger name text */
+  color: #2c2c2c;            /* Dark, soft gray for readability */
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Friendly Body Text */
+.painter-card p {
+  font-family: system-ui, -apple-system, sans-serif; /* Friendly, readable font */
+  font-size: 1rem;
+  color: #555555;            /* Softer than pure black */
+  line-height: 1.5;          /* Gives the text room to breathe */
+  margin: 4px 0;
+}
+
+/* Lead painter variant – still yours */
+.painter-card--lead {
+  border-color: gold;
+  box-shadow: 0 0 15px rgba(218, 165, 32, 0.7);
+}
