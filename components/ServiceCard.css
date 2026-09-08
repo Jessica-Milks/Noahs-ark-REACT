@@ -1,0 +1,38 @@
+/* ServiceCard.css */
+
+/* ===========================
+   SERVICES OFFERED CARDS
+   =========================== */
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #eae1d5;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 350px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Matches PainterCard exactly */
+  margin: 16px auto;
+  text-align: left; /* Left-aligning service text looks a bit more editorial/professional */
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  color: #2c2c2c;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #f0e6d2; /* Tiny decorative underline */
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.service-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555555;
+  margin: 0;
+}
+
+/* Featured Service Variant (e.g., Cabinet Refinishing) */
+.service-card--featured {
+  background-color: #fdfaf6; /* Very subtle cream highlight */
+  border-color: #c2b280; /* Soft tan border */
+}
